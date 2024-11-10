@@ -1,0 +1,375 @@
+{
+    "tools": {
+        "avatar": {
+            "label": "Image*",
+            "type:": "square",
+            "errors": {
+                "required": " image is required",
+                "pattern": {
+                    "value": "'image/png': ['.png','.jpg','.jpeg','.webp']"
+                }
+            }
+        },
+        "toolname": {
+            "label": " Tool Name",
+            "placeholder": "Tool Name",
+            "errors": {
+                "required": "Tool Name is required"
+            }
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "description",
+            "errors": {
+                "required": "Description is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "Description name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "Description name must have a minimum of 10 characters"
+                }
+            }
+        },
+        "username": {
+            "label": " Email",
+            "placeholder": "e-mail Address *",
+            "errors": {
+                "required": "email is required",
+                "pattern": {
+                    "value": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+                    "message": "please enter valid email"
+                }
+            }
+        }
+    },
+    "qr_generator": {
+        "company_name": {
+            "label": "Company Name",
+            "placeholder": "enter company name",
+            "errors": {
+                "required": "company name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "company name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "company name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "contact": {
+            "label": "Phone",
+            "placeholder": "enter phone number",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "value": "^[6-9]{1}[0-9]{9}$",
+                    "message": "Please enter a valid phone number (e.g., 9876543210)"
+                },
+                "maxLength": {
+                    "value": 15,
+                    "message": "phone cannot exceed 10 characters"
+                },
+                "minLength": {
+                    "value": 15,
+                    "message": "phone must contain 10 characters"
+                }
+            }
+        },
+        "username": {
+            "label": " Email",
+            "placeholder": "E-mail Address *",
+            "errors": {
+                "required": "email is required",
+                "pattern": {
+                    "value": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+                    "message": "please enter valid email"
+                },
+                "min": {
+                    "value": 10,
+                    "message": "username name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "street": {
+            "label": "Street",
+            "placeholder": "street",
+            "errors": {
+                "required": "street is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "street cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "street must have a minimum of 3 characters"
+                }
+            }
+        },
+        "city": {
+            "label": "City",
+            "placeholder": "enter city name",
+            "errors": {
+                "required": "city name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "city name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "city name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "zip": {
+            "label": "Zip",
+            "placeholder": "enter zip code",
+            "errors": {
+                "required": "zip code is required",
+                "maxLength": {
+                    "value": 37,
+                    "message": "zip code  exceed 8 characters"
+                },
+                "minLength": {
+                    "value": 3,
+                    "message": "zip code  must have a minimum of 3 characters"
+                }
+            }
+        },
+        "state": {
+            "label": "State",
+            "placeholder": "enter state name",
+            "errors": {
+                "required": "state name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "state name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "state name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "country": {
+            "label": "Country",
+            "placeholder": "enter country name",
+            "errors": {
+                "required": "country name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "country name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "country name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "website": {
+            "label": "Website",
+            "placeholder": "www.your-website.com",
+            "errors": {
+                "required": "website link is required",
+                "maxLength": {
+                    "value": 70,
+                    "message": "country name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "country name must have a minimum of 3 characters"
+                }
+            }
+        }
+    },
+    "employeeidentification": {
+        "reason": {
+            "label": " Reason",
+            "placeholder": "Reason",
+            "errors": {
+                "required": "reason is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "reason name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "reason name  have minimum  3 characters"
+                }
+            }
+        },
+        "name": {
+            "label": "name",
+            "placeholder": "enter your name",
+            "errors": {
+                "required": "name is require",
+                "maxLength": {
+                    "value": 30,
+                    "message": "name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "social_secuirity": {
+            "label": "Social secuirity",
+            "placeholder": "enter social secuirity number",
+            "error": {
+                "required": "social secuirity number is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "social secuirity number cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "social secuirity number must have a minimum of 3 characters"
+                }
+            }
+        },
+        "contact": {
+            "label": "Phone",
+            "placeholder": "enter phone number",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "value": "^[6-9]{1}[0-9]{9}$",
+                    "message": "Please enter a valid phone number (e.g., 9876543210)"
+                },
+                "maxLength": {
+                    "value": 15,
+                    "message": "phone number  exceed 10 characters"
+                },
+                "minLength": {
+                    "value": 15,
+                    "message": "phone number must have 10 characters"
+                }
+            }
+        },
+        "business_name": {
+            "label": "Business name",
+            "placeholder": "enter  business name",
+            "error": {
+                "required": "business name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "business name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "business name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "state": {
+            "label": "State",
+            "placeholder": "enter state name",
+            "errors": {
+                "required": "state name is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "state name cannot exceed 30 characters"
+                },
+                "minLength": {
+                    "value": 10,
+                    "message": "state name must have a minimum of 3 characters"
+                }
+            }
+        },
+        "date": {
+            "label": "Date",
+            "placeholder": "enter business formation date",
+            "errors": {
+                "required": "business formation date  i srequired",
+                "maxLength": {
+                    "value": 30,
+                    "message": "date cannot exceed 30 characters"
+                }
+            }
+        }
+    },
+    "state": {
+        "state": {
+            "label": "state",
+            "placeholder": "select state",
+            "errors": {
+                "required": "state  is required"
+            }
+        }
+    },
+    "invoice": {
+        "invoice_number": {
+            "label": "Invoice number",
+            "placeholder": "enter your invoice number",
+            "errors": {
+                "required": "invoice number is required",
+                "maxLength": {
+                    "value": 30,
+                    "message": "invoice number cannot exceed 30 characters"
+                }
+            }
+        }
+    },
+    "subscribe": {
+        "email": {
+            "label": " Email",
+            "placeholder": "E-MAIL ADDRESS *",
+            "errors": {
+                "required": "email is required",
+                "pattern": {
+                    "value": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+                    "message": "please enter valid email"
+                }
+            }
+        }
+    },
+    "logo_api_lite": {
+        "name": {
+            "label": "Name",
+            "placeholder": " Enter logo name",
+            "errors": {
+                "required": "logo name is required"
+            }
+        },
+        "fonts": {
+            "label": "Font",
+            "placeholder": "Enter font name",
+            "errors": {
+                "required": "font name is required"
+            }
+        },
+        "style": {
+            "label": "Style",
+            "placeholder": "Enter style name",
+            "errors": {
+                "required": "style name is required"
+            }
+        }
+    },
+    "ai_tools": {
+        "tools": {
+            "label": "Ai tools",
+            "placeholder": "Enter the tool name",
+            "errors": {
+                "required": "tool name is required"
+            }
+        }
+    },
+    "user":{
+        "email": {
+            "label": "Email Address",
+            "placeholder": "Enter email",
+            "errors": {
+                "required": "email is required",
+                "pattern": {
+                "value": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+                "message": "please enter valid email"
+            }
+        }
+    }
+    }
+}
